@@ -21,10 +21,14 @@ python newton_raphson.py
 
 **Salida:**
 ```
-Raíz aproximada: 0.567143
-x      = 0.567143
-e^(-x) = 0.567143
-f(x)   = ~1e-07
+i   x_(i-1)       x_i           |x_i - x_(i-1)| 
+1   0.500         0.566         0.0663          
+2   0.566         0.567         0.0008          
+
+Raíz aproximada: 0.567
+x      = 0.567
+e^(-x) = 0.567
+f(x)   = -1.965e-07
 ```
 
 Se comprueba que x y e^(−x) coinciden, por lo que el algoritmo funciona.
